@@ -1,0 +1,8 @@
+/* Body and structure
+-------------------------------------------------- */
+body {
+	font-family: 'jaf-domus-titling-web', sans-serif;
+}
+	body p {
+		font-weight: 400;
+	}
