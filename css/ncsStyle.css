@@ -1,8 +1,21 @@
 /* Body and structure
 -------------------------------------------------- */
 body {
+	color: #ebebeb;
 	font-family: 'jaf-domus-titling-web', sans-serif;
+	background: rgba(96, 57, 19, 0.64);
 }
 	body p {
 		font-weight: 400;
 	}
+/* Top Bar
+-------------------------------------------------- */
+.top-bar, .top-bar ul {
+    background-color: transparent;
+}
+.top-bar {
+	text-align:center;
+}
+.top-bar-center {
+	display: inline-block;
+}
