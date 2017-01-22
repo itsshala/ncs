@@ -7,8 +7,12 @@ body {
 	font-weight: 600;
 }
 	body p {
+		font-family: 'proxima-nova', sans-serif;
 		font-weight: 400;
 	}
+		h1, h2, h3, h4, h5, h6 {
+			font-family: 'jaf-domus-titling-web', sans-serif;
+		}
 /* Top Bar
 -------------------------------------------------- */
 .top-bar, .top-bar ul {
@@ -45,6 +49,38 @@ body {
 
 
 #element-with-background-image {
+   width: 1366px;
+   height: 768px;
+   background-image: url("../img/homeModel.png");
+   background-repeat: no-repeat;
+   z-index: -999;
+}
+
+
+/* Testing - jus delete this section to revert back
+---------------------- */
+	
+#flexWords {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    position: fixed;
+}
+
+#main {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    	bottom: 50%
+}
+
+#main-background-image {
    width: 1366px;
    height: 768px;
    background-image: url("../img/homeModel.png");
