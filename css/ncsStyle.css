@@ -59,3 +59,10 @@ body {
 .flex-item {
     margin: 15px;
 }
+#pics {
+	display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 175px;
+}
